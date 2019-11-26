@@ -50,11 +50,8 @@ display: block;
 
 }
 
-        
 
-
-<body>
-<scrt type=”text/javascript”>
+<script type=”text/javascript”>
 
 
 
@@ -67,10 +64,11 @@ display: block;
 * Visit http://www.dynamicdrive.com/ for full source code
 
 ***********************************************/
-
+<body>
 var tickspeed=3000 //ticker speed in miliseconds (2000=2 seconds)
 
-var displaymode=”auto” //displaymode (“auto” or “manual”). No need to modify as form at the bottom will control it, unless you wish to remove form.
+var displaymode=”auto” //displaymode (“auto” or “manual”). No need to modify as form at the bottom will control it, unless you
+wish to remove form.
 
 
 
@@ -265,30 +263,15 @@ window.onload=startgallery
 <!– STEP TWO: Copy this code into the BODY of your HTML document  –>
 
 
-
-<BODY>
-
- 
-
-
-
-
-
-<HEAD>
-
-
-
 <!– This script and many more are available free online at –>
 
 <!– The JavaScript Source!! http://www.javascriptsource.com –>
 
 <!– Original:  Team DynamicDrive –>
 
-<!– Web Site:  http://www.dynamicdrive.com –>
+<!– Web Site:  http://www.dynamicdrive.com –> type=”text/css”>
 
-<style type=”text/css”>
-
-
+<body>
 
 .gallerycontroller{
 
@@ -475,64 +458,6 @@ else
 document.gallerycontrol.menu.disabled=false
 
 }
-
-
-
-
-
-function startgallery(){
-
-document.getElementById(“controldiv”).style.display=”block”
-
-getElementbyClass(“gallerycontent”)
-
-totalDivs=partscollect.length
-
-populatemenu()
-
-for (i=0; i<document.gallerycontrol.mode.length; i++){
-
-if (document.gallerycontrol.mode[i].checked)
-
-displaymode=document.gallerycontrol.mode[i].value
-
-}
-
-if (displaymode==”auto”)
-
-document.gallerycontrol.menu.disabled=true
-
-expandone()
-
-}
-
-
-
-if (window.addEventListener)
-
-window.addEventListener(“load”, startgallery, false)
-
-else if (window.attachEvent)
-
-window.attachEvent(“onload”, startgallery)
-
-else if (document.getElementById)
-
-window.onload=startgallery
-
-
-
-</script>
-
-
-
-</HEAD>
-
-
-
-<!– STEP TWO: Copy this code into the BODY of your HTML document  –>
-
-
 
 <BODY>
 
