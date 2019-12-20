@@ -33,11 +33,17 @@ body {
 	  width: 100%;
 	}
 	
-	.t {
+	
+.t {
 	  animation-name: titleflip;
 	  animation: titleflip 5s ease-in-out infinite;
 	  -webkit-animation-name: titleflip;
 	  -webkit-animation: titleflip 5s ease-in-out infinite;
+	}
+
+h1 {   
+	   font-family:"Comic Sans MS", cursive, sans-serif)";
+	   margin:0;
 	}
 	
 	@-webkit-keyframes titleflip {
@@ -76,10 +82,9 @@ a{
 	color:white;
 }
 
-h1{     font-family:"Comic Sans MS", cursive, sans-serif)";
-	margin:0;
+
 	
-}
+
 
 h2{
 	font-family:"Voltaire";
