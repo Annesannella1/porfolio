@@ -75,7 +75,9 @@ a{
 	text-decoration:none;
 	color:white;
 }
-h1{     font-family:"Comic Sans MS", cursive, sans-serif)"} 
+h1{     font-family:"Comic Sans MS", cursive, sans-serif)";
+}
+
 h2{
 	font-family:"Voltaire";
 	text-transform:uppercase;
@@ -153,6 +155,7 @@ h2{
 	height:100%;
 	top:0;
 	left:0;
+	background-repeat: no-repeat;
 	background-size:contain;
 	background-position:50% 50%;
 }
