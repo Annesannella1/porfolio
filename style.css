@@ -3,9 +3,9 @@ body {
 	  text-align: center;
 	  font-family: sans-serif;
 	  font-weight: 600;
-	  color: #ffffff;
+	  color: #000000;
 	  overflow: hidden;
-	  background: #000000;
+	  background: #ffd662;
 	}
 	
 	header {
@@ -75,7 +75,7 @@ body {
 	}
 a{
 	text-decoration:none;
-	color:#ffd662;
+	color:black;
 }
 
 
