@@ -10,7 +10,7 @@ body {
 	
 	header {
 	  margin: 6.25em auto;
-	  height: 2.6em;
+	  height: 3.6em;
 	  overflow: hidden;
 	  width: 100%;
 	}
@@ -74,7 +74,7 @@ body {
 	  }
 	}
 a{
-	text-decoration:inherit;
+	text-decoration:none;
 	color:black;
 }
 
